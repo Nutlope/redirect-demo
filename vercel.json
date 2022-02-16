@@ -3,6 +3,10 @@
     {
       "source": "/weird",
       "destination": "/about"
+    },
+    {
+      "source": "/wow",
+      "destination": "https://www.youtube.com/watch?v=Crkcr1S-NSc"
     }
   ]
 }
