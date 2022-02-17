@@ -1,9 +1,10 @@
 module.exports = {
+  // next.js rewrite to redirect /blog to an external blog
   async rewrites() {
     return [
       {
         source: "/blog/:path",
-        destination: "https://blog-kk1clywsj-svix.vercel.app/blog/:path",
+        destination: "https://blog-svix.vercel.app/blog/:path",
       },
     ];
   },
