@@ -1,5 +1,5 @@
 module.exports = {
-  //   trailingSlash: true,
+  trailingSlash: true,
   // next.js rewrite to redirect /blog to an external blog
   async rewrites() {
     return [
