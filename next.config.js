@@ -7,8 +7,8 @@ module.exports = {
         destination: "https://blog-svix.vercel.app/blog",
       },
       {
-        source: "/blog/:path",
-        destination: "https://blog-svix.vercel.app/blog/:path",
+        source: "/blog/:slug",
+        destination: "https://blog-svix.vercel.app/blog/:slug",
       },
     ];
   },
