@@ -1,11 +1,9 @@
 module.exports = {
-  reactStrictMode: true,
-  async redirects() {
+  async rewrites() {
     return [
       {
-        source: "/",
-        destination: "/about",
-        permanent: true,
+        source: "/blog/:path",
+        destination: "https://www.elmghari.com/:path",
       },
     ];
   },
