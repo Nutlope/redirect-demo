@@ -2,8 +2,8 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/blog",
-        destination: "https://www.elmghari.com/blog",
+        source: "/blog/:path",
+        destination: "https://blog-kk1clywsj-svix.vercel.app/blog/:path",
       },
     ];
   },
