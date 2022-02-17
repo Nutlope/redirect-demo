@@ -3,11 +3,11 @@ module.exports = {
     return [
       {
         source: "/blog",
-        destination: "https://www.cstrnt.dev",
+        destination: "https://blog-svix.vercel.app/blog/",
       },
       {
         source: "/blog/:slug",
-        destination: "https://www.cstrnt.dev/blog/:slug*",
+        destination: "https://blog-svix.vercel.app/blog/:slug",
       },
     ];
   },
