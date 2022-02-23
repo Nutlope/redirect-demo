@@ -1,5 +1,3 @@
-const BLOG_URL = "";
-
 module.exports = {
   async rewrites() {
     return [
