@@ -1,14 +1,13 @@
 module.exports = {
-  basePath: "/blog",
   async rewrites() {
     return [
       {
         source: "/blog",
-        destination: "example.com",
+        destination: "https://leerob.io/blog",
       },
       {
         source: "/blog/:slug",
-        destination: "https://blog-svix.vercel.app/blog/:slug",
+        destination: "https://leerob.io/blog/:slug",
       },
     ];
   },
