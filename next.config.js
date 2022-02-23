@@ -49,8 +49,8 @@ module.exports = withImages({
         destination: `${BLOG_URL}/blog/`,
       },
       {
-        source: "/blog/:path*",
-        destination: `${BLOG_URL}/blog/:path*`,
+        source: "/blog/:path(.+)",
+        destination: `${BLOG_URL}/blog/:path(.+)`,
       },
     ];
   },
