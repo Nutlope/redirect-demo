@@ -3,11 +3,11 @@ module.exports = {
     return [
       {
         source: "/blog",
-        destination: "https://leerob.io/blog",
+        destination: "https://starter-blog-example.vercel.app/blog",
       },
       {
         source: "/blog/:slug",
-        destination: "https://leerob.io/blog/:slug",
+        destination: "https://starter-blog-example.vercel.app/blog/:slug",
       },
     ];
   },
