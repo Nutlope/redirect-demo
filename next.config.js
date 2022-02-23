@@ -17,7 +17,7 @@ module.exports = withImages({
       disableStaticImages: true,
     },
     reactStrictMode: true,
-    // trailingSlash: true,
+    trailingSlash: true,
     ...withMDX({
       pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
     }),
@@ -45,8 +45,8 @@ module.exports = withImages({
   async rewrites() {
     return [
       {
-        source: "/blog",
-        destination: `${BLOG_URL}/blog`,
+        source: "/blog/",
+        destination: `${BLOG_URL}/blog/`,
       },
       {
         source: "/blog/:path*",
