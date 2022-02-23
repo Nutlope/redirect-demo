@@ -1,13 +1,15 @@
+const BLOG_URL = "https://starter-blog-example.vercel.app";
+
 module.exports = {
   async rewrites() {
     return [
       {
         source: "/blog",
-        destination: "https://blog-svix.vercel.app/blog",
+        destination: `${BLOG_URL}/blog`,
       },
       {
         source: "/blog/:slug",
-        destination: "https://blog-svix.vercel.app/blog/:slug",
+        destination: `${BLOG_URL}/blog/:slug`,
       },
     ];
   },
